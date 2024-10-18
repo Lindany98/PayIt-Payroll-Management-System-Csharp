@@ -20,7 +20,7 @@ namespace PayrollSystem
             getEmployee();
         }
 
-        SqlConnection Con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Trials\PayrollSystem\PayRollDB.mdf;Integrated Security=True;Connect Timeout=30");
+        SqlConnection Con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\LindaniMabaso\projects\PayIt-Payroll-Management-System-Csharp\PayRollDB.mdf;Integrated Security=True;Connect Timeout=30");
         private void label11_Click(object sender, EventArgs e)
         {
 

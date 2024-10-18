@@ -19,7 +19,7 @@ namespace PayrollSystem
             InitializeComponent();
         }
 
-        SqlConnection Con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Trials\PayrollSystem\PayRollDB.mdf;Integrated Security=True;Connect Timeout=30");
+        SqlConnection Con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\LindaniMabaso\projects\PayIt-Payroll-Management-System-Csharp\PayRollDB.mdf;Integrated Security=True;Connect Timeout=30");
         public static string Users;
         private void Login_Load(object sender, EventArgs e)
         {
@@ -33,7 +33,7 @@ namespace PayrollSystem
 
         private void Btn_Click(object sender, EventArgs e)
         {
-            /*if (User.Text == "" || Pass.Text == "")
+            if (User.Text == "" || Pass.Text == "")
                 MessageBox.Show("Missing Information!!");
             else if (User.Text == "Admin" || Pass.Text == "123")
             {
@@ -42,7 +42,7 @@ namespace PayrollSystem
                 this.Hide();
             }
             else
-                MessageBox.Show("Wrong UserName or Password!");*/
+                MessageBox.Show("Wrong UserName or Password!");
 
         }
 

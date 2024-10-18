@@ -71,7 +71,7 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(53, 32);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(127, 45);
+            this.label1.Size = new System.Drawing.Size(104, 37);
             this.label1.TabIndex = 1;
             this.label1.Text = "Pay It!";
             // 
@@ -79,7 +79,7 @@
             // 
             this.pictureBox9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
-            this.pictureBox9.Location = new System.Drawing.Point(1416, 28);
+            this.pictureBox9.Location = new System.Drawing.Point(1811, 37);
             this.pictureBox9.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(32, 32);
@@ -95,7 +95,7 @@
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(50, 75);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(131, 12);
+            this.label2.Size = new System.Drawing.Size(102, 10);
             this.label2.TabIndex = 2;
             this.label2.Text = "PayRoll Management System";
             // 
@@ -129,7 +129,7 @@
             this.gunaLinkLabel1.LinkColor = System.Drawing.Color.White;
             this.gunaLinkLabel1.Location = new System.Drawing.Point(744, 40);
             this.gunaLinkLabel1.Name = "gunaLinkLabel1";
-            this.gunaLinkLabel1.Size = new System.Drawing.Size(127, 23);
+            this.gunaLinkLabel1.Size = new System.Drawing.Size(105, 19);
             this.gunaLinkLabel1.TabIndex = 51;
             this.gunaLinkLabel1.TabStop = true;
             this.gunaLinkLabel1.Text = "www.payit.com";
@@ -148,7 +148,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(-1, 110);
+            this.pictureBox1.Location = new System.Drawing.Point(3, 109);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(1942, 1102);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -168,10 +168,10 @@
             this.User.LineIdleColor = System.Drawing.Color.Gainsboro;
             this.User.LineMouseHoverColor = System.Drawing.Color.Blue;
             this.User.LineThickness = 2;
-            this.User.Location = new System.Drawing.Point(641, 357);
+            this.User.Location = new System.Drawing.Point(748, 332);
             this.User.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.User.Name = "User";
-            this.User.Size = new System.Drawing.Size(299, 57);
+            this.User.Size = new System.Drawing.Size(632, 57);
             this.User.TabIndex = 54;
             this.User.Text = "Username";
             this.User.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -189,10 +189,10 @@
             this.Pass.LineIdleColor = System.Drawing.Color.Gainsboro;
             this.Pass.LineMouseHoverColor = System.Drawing.Color.Blue;
             this.Pass.LineThickness = 2;
-            this.Pass.Location = new System.Drawing.Point(641, 447);
+            this.Pass.Location = new System.Drawing.Point(748, 434);
             this.Pass.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.Pass.Name = "Pass";
-            this.Pass.Size = new System.Drawing.Size(299, 57);
+            this.Pass.Size = new System.Drawing.Size(632, 57);
             this.Pass.TabIndex = 55;
             this.Pass.Text = "Password";
             this.Pass.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -211,10 +211,10 @@
             this.LoginBtnn.ImageZoom = 50;
             this.LoginBtnn.LabelPosition = 30;
             this.LoginBtnn.LabelText = "Login";
-            this.LoginBtnn.Location = new System.Drawing.Point(641, 568);
+            this.LoginBtnn.Location = new System.Drawing.Point(748, 568);
             this.LoginBtnn.Margin = new System.Windows.Forms.Padding(4);
             this.LoginBtnn.Name = "LoginBtnn";
-            this.LoginBtnn.Size = new System.Drawing.Size(299, 39);
+            this.LoginBtnn.Size = new System.Drawing.Size(632, 41);
             this.LoginBtnn.TabIndex = 56;
             this.LoginBtnn.Click += new System.EventHandler(this.LoginBtnn_Click);
             // 
@@ -222,7 +222,7 @@
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(6)))), ((int)(((byte)(86)))));
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(748, 255);
+            this.pictureBox2.Location = new System.Drawing.Point(1051, 212);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(75, 75);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -231,7 +231,7 @@
             // 
             // Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.LightGray;
